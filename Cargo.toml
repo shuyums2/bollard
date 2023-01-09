@@ -27,7 +27,7 @@ chrono = ["dep:chrono", "bollard-stubs/chrono"]
 time = ["dep:time", "bollard-stubs/time"]
 
 [dependencies]
-base64 = "0.13"
+base64 = "0.21"
 bollard-stubs = { version = "=1.42.0-rc.3", default-features = false }
 bytes = "1"
 chrono = { version = "0.4", features = ["serde"], optional = true }
